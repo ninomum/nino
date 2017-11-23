@@ -15,7 +15,7 @@ class Grid{
         }));
 
         const $divArray = $cells.map($spanArray => {
-            return $cells("<div>").append($spanArray);
+            return $("<div>").append($spanArray);
         });
 
         this._$container.append($divArray);
