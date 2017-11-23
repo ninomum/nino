@@ -2,6 +2,7 @@
   "name": "shudu",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {},
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
