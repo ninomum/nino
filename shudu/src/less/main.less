@@ -21,7 +21,7 @@ body{
     padding:1rem 5%;
     background: steelblue;
     color:white;
-    margin:2rem;
+    margin-bottom:2rem;
     box-shadow:@shadowBottom;
 
     h1{
@@ -59,6 +59,11 @@ body{
             color:white;
             border:1px solid #cccccc;
             background:transparent;
+            border-right-width:0;
+            &:last-child{
+                border-right-width:1px;
+            }
+
         }
     }
 }
